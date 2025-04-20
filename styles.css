@@ -1,0 +1,72 @@
+html {font-family: sans-serif;
+}
+tr.ucore {background-color: #f2f2f2 ; }
+tr.cs {background-color: #D1EBD8 ; }
+td.coursecode {
+    width: 90px;
+    font-weight: 600 ;
+    height: 30px;
+}
+td.coursename {
+    width: 400px ;
+    font-weight: normal;
+    
+}
+td.credits {
+
+}
+h3,h4 {
+    margin: 0px;
+}
+table {
+    border-collapse: collapse;
+    border: none;
+  }
+
+  .course-link {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block; /* shrink to content size */
+  }
+  
+  .course-block {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 15px;
+    background-color: white; /* make default background white */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* optional: slight shadow */
+    transition: background-color 0.2s;
+    max-width: 800px; /* optional: control block width */
+  }
+  
+  .course-block:active {
+    background-color: #f0f0f0; /* light grey when clicked */
+  }
+  
+  .course-info h2, .course-info h3 {
+    margin: 4px 0;
+    color: black;
+    font-weight: normal;
+  }
+  
+  img.framed {
+    width: 500px; /* set image width */
+    height: 500px; /* set image height */
+    object-fit: cover; /* ensure the image covers its container if aspect ratio is different */
+  }
+  
+  .framed-container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  .framed-container img {
+    box-shadow:
+      -50px -50px 0 -40px tomato,
+      50px 50px 0 -40px tomato;
+  }
+  
+  

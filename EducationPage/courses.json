@@ -1,0 +1,67 @@
+{
+    "Year 1 (2022-23)": {
+      "Semester 1":[
+        { "course_code": "CHLT1001", "course_name": "University Chinese I", "credits": "3"},
+        { "course_code": "ENGG1003", "course_name": "Digital Literacy and Computational Thinking", "credits": "3"},
+        { "course_code": "GESH1010", "course_name": "Orientation and Outreach", "credits": "3"},
+        { "course_code": "PHED1022", "course_name": "Basketball(Women)", "credits": "1"},
+        { "course_code": "UGFH1000", "course_name": "In Dialogue With Nature", "credits": "3"},
+        { "course_code": "MATH1510", "course_name": "Calculus for Engineers", "credits": "3"},
+        { "course_code": "PHYS1110", "course_name": "Engineering Physics : Mechanics and Thermodynamics", "credits": "3"}
+      ],
+      "Semester 2":[
+        { "course_code": "ELTU1002", "course_name": "English Communication for University Studies", "credits": "3"},
+        { "course_code": "PHED1026", "course_name": "Softball(Women)", "credits": "1"},
+        { "course_code": "UGED1111", "course_name": "Logic", "credits": "2"},
+        { "course_code": "ENGG1110", "course_name": "Problem Solving By Programming", "credits": "3"},
+        { "course_code": "ENGG1120", "course_name": "Linear Algebra for Engineers", "credits": "3"},
+        { "course_code": "ENGG1130", "course_name": "Multivariable Calculus for Engineers", "credits": "3"},
+        { "course_code": "ENGG2020", "course_name": "Digital Logic and Systems", "credits": "3"}
+      ],
+      "Summer":[
+        { "course_code": "UGEA2100", "course_name": "Outline of Chinese Culture", "credits": "2"},
+        { "course_code": "UGCP1001", "course_name": "Understanding Chinese", "credits": "1"}
+    ]
+  },
+  "Year 2 (2023-24)": {
+      "Semester 1":[
+        { "course_code": "CHLT1002", "course_name": "University Chinese II", "credits": "2"},
+        { "course_code": "UGCP1002", "course_name": "Hong Kong in the Wider Constitutional Order", "credits": "1"},
+        { "course_code": "UGFH1000", "course_name": "In Dialogue with Humanity", "credits": "3"},
+        { "course_code": "ENGG2440", "course_name": "Discrete Mathematics for Engineers", "credits": "3"},
+        { "course_code": "ENGG2760", "course_name": "Probability for Engineers", "credits": "2"},
+        { "course_code": "CSCI1130", "course_name": "Introduction to Computing Using Java", "credits": "3"},
+        { "course_code": "PHIL2020", "course_name": "History of Chinese Philosophy I", "credits": "3"},
+        { "course_code": "PHYS1110", "course_name": "History of Western Philosophy I", "credits": "3"}
+      ],
+      "Semester 2":[
+        { "course_code": "ELTU2014", "course_name": "English for Engineering Students I", "credits": "3"},
+        { "course_code": "ENGG2780", "course_name": "Statistics for Engineers", "credits": "2"},
+        { "course_code": "CSCI2100", "course_name": "Data Structures", "credits": "3"},
+        { "course_code": "CENG3420", "course_name": "Computer Organization and Design", "credits": "3"},
+        { "course_code": "PHIL1110", "course_name": "Introduction to Philosophy", "credits": "3"},
+        { "course_code": "PHIL3000", "course_name": "Ethics", "credits": "3"}
+      ],
+      "Summer":[
+        { "course_code": "ANTH1410", "course_name": "Culture of Hong Kong", "credits": "3"}
+    ]
+  },
+  "Year 3 (2024-25)": {
+      "Semester 1":[
+        { "course_code": "CSCI3130", "course_name": "Formal Languages and Automata Theory", "credits": "3"},
+        { "course_code": "CSCI3150", "course_name": "Introduction to Operating Systems", "credits": "3"},
+        { "course_code": "CSCI3160", "course_name": "Design and Analysis of Algorithms", "credits": "3"},
+        { "course_code": "CSCI3170", "course_name": "Introduction to Database Systems", "credits": "3"},
+        { "course_code": "PHIL3302", "course_name": "Analytic Philosophy", "credits": "3"},
+        { "course_code": "PSYC1000", "course_name": "General Psychology", "credits": "3"},
+        { "course_code": "PSYC2620", "course_name": "Social Psychology", "credits": "3"}
+      ],
+      "Semester 2(Exchanging)":[
+        { "course_code": "COMP2216", "course_name": "Principles of Cyber Security", "credits": "3"},
+        { "course_code": "PHIL1019", "course_name": "Puzzles in Art and Literature", "credits": "3"},
+        { "course_code": "PHIL3041", "course_name": "Happiness and Wellbeing", "credits": "3"},
+        { "course_code": "PHIL3056", "course_name": "Philosophy and Ethics in Psychology and AI", "credits": "3"}
+      ]
+  }
+}
+  

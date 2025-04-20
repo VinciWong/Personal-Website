@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Courses</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+    }
+    th, td {
+      padding: 8px 12px;
+      border: 1px solid #ccc;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Courses</h1>
+  <p>I typically took around 18-21 credits per semester, since cuhk is strict for credit overload, I couldn't study more credits:( <br>For those interested, here's a list of the courses I took:</p>
+  <div id="semester-courses"></div>
+
+  <script>
+    fetch('./courses.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('semester-courses');
+
+        for (let year in data) {
+          const yearDiv = document.createElement('div');
+          const yearTitle = document.createElement('h2');
+          yearTitle.textContent = year;
+          yearDiv.appendChild(yearTitle);
+
+          const semesters = data[year];
+          for (let semester in semesters) {
+            const semesterTitle = document.createElement('h3');
+            semesterTitle.textContent = semester;
+            yearDiv.appendChild(semesterTitle);
+
+            const table = document.createElement('table');
+            const header = document.createElement('tr');
+            header.innerHTML = '<th>Course Code</th><th>Course Name</th><th>Credit</th>';
+            table.appendChild(header);
+
+            let sum = 0;
+            semesters[semester].forEach(course => {
+              const row = document.createElement('tr');
+              row.innerHTML = `<td>${course.course_code}</td><td>${course.course_name}</td><td>${course.credits}</td>`;
+              table.appendChild(row);
+              sum += Number(course.credits);
+            });
+            
+            const totalRow = document.createElement('tr');
+            totalRow.innerHTML = `<td colspan="2" style="text-align: right;"><strong>Total</strong></td><td><strong>${sum}</strong></td>`;
+            table.appendChild(totalRow);
+
+            yearDiv.appendChild(table);
+          }
+
+          container.appendChild(yearDiv);
+        }
+      })
+      .catch(error => console.error('Error loading courses:', error));
+  </script>
+</body>
+</html>
