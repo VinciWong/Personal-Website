@@ -56,11 +56,15 @@
         { "course_code": "PSYC1000", "course_name": "General Psychology", "credits": "3"},
         { "course_code": "PSYC2620", "course_name": "Social Psychology", "credits": "3"}
       ],
-      "Semester 2(Exchanging)":[
+      "Semester 2(Exchanging at University of Southampton)":[
         { "course_code": "COMP2216", "course_name": "Principles of Cyber Security", "credits": "3"},
         { "course_code": "PHIL1019", "course_name": "Puzzles in Art and Literature", "credits": "3"},
         { "course_code": "PHIL3041", "course_name": "Happiness and Wellbeing", "credits": "3"},
         { "course_code": "PHIL3056", "course_name": "Philosophy and Ethics in Psychology and AI", "credits": "3"}
+      ],
+      "Summer(CUHK International Summer School)":[
+        {"course_code": "ANTH2540", "course_name": "Peoples and Cultures of South East Asia", "credits": "3"},
+        { "course_code": "GLSD3201", "course_name": "Cultural Psychology and Globalization", "credits": "3"}
       ]
   }
 }
